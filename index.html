@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!--icon link-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/9ea65bb5f9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--css link-->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--header section-->
+      <header class="header">
+        <!--logo-->
+        <a href="index.html" class="logo">My logo</a>
+
+        <!--navbar-->
+        <nav>
+          <ul id="mobile-floating-nav" class="navlink">
+            <li id="menu-close-btn">
+              <i class="uil uil-multiply close-btn mobile"></i>
+            </li>
+            <li class="mob-nav-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="mob-nav-item"><a href="#about">About</a></li>
+            <li class="mob-nav-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <!--end of navbar-->
+
+        <nav id="toggle" class="toggle">
+          <i class="uil uil-bars"></i>
+        </nav>
+      </header>
+
+      <!--home page-->
+      <section class="home">
+        <article class="home-content">
+          <h1 class="home-title">
+            I'm Soe Sandar Win <br />
+            Glad to see you!
+          </h1>
+
+          <p class="home-main">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+
+          <h2>LET'S CONNECT</h2>
+
+          <ul class="social_links">
+            <li>
+              <a href="https://www.linkedin.com/in/soe-sandar-win-softwareengineer/"><img src="./images/linkedin.svg" alt="linkedin" /></a>
+            </li>
+            <li>
+              <a href="https://github.com/soesandarwin2201"><img src="./images/Vector (2).svg" alt="github logo" /></a>
+            </li>
+            <li>
+              <a href="https://medium.com/@soesandarwin2201"><img src="./images/Vector (3).svg" alt="medium logo" /></a>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!--portfolio section-->
+
+      <section id="portfolio" class="portfoilio">
+        <div class="portfoilio-wrapper"></div>
+      </section>
+      <!--end of the portfolio section-->
+
+      <!--popup project-->
+      <article id="popup-background">
+        <div class="popup-container"></div>
+      </article>
+      <!--end of popup project-->
+    
+
+      <!--start of about section-->
+      <section id="about" class="about">
+        <div class="about-wrapper">
+          <article class="about-content">
+            <h1 class="home-title">
+              About <br />
+              Myself
+            </h1>
+            <p class="about-main">
+              I’m a software developer! I can help you build a product , feature
+              or website Look through some of my work and experience! If you
+              like what you see and have a project you need coded, don’t
+              hestiate to contact me.
+            </p>
+            <h2>LET'S CONNECT</h2>
+
+            <ul class="social_links">
+            <li>
+              <a href="https://www.linkedin.com/in/soe-sandar-win-softwareengineer/"><img src="./images/linkedin.svg" alt="linkedin" /></a>
+            </li>
+            <li>
+              <a href="https://github.com/soesandarwin2201"><img src="./images/Vector (2).svg" alt="github logo" /></a>
+            </li>
+            <li>
+              <a href="https://medium.com/@soesandarwin2201"><img src="./images/Vector (3).svg" alt="medium logo" /></a>
+            </li>
+          </ul>
+          </article>
+
+          <article class="lang">
+            <div class="lang-title">
+              <h3>Languages</h3>
+              <span  class="arrow"><i class="uil uil-angle-down"></i></span>
+            </div>
+            <ul class="lang-img desktop flex" id="here">
+              <li><img src="./images/Frame 9.svg" alt="html" /></li>
+              <li><img src="./images/Frame 10.svg" alt="css" /></li>
+              <li><img src="./images/Frame 11.svg" alt="javscript" /></li>
+            </ul>
+            <ul class="lang-img mobile">
+              <li><img src="./images/Frame 9 (1).svg" alt="html" /></li>
+              <li><img src="./images/Frame 10 (1).svg" alt="css" /></li>
+              <li><img src="./images/Frame 11 (1).svg" alt="javscript" /></li>
+            </ul>
+            <ul class="lang-title Frameworks">
+              <h4>Frameworks</h4>
+              <span  class="arrow"><i class="uil uil-angle-right"></i></span>
+            </ul>
+
+            <ul class="lang-title Frameworks">
+              <h4>Skills</h4>
+              <span class="arrow"><i class="uil uil-angle-right"></i></span>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!--end of about section-->
+
+      <!--start of contact section-->
+      <section id="contact" class="contact">
+        <article class="contact-context">
+          <h1 class="title">Contact me</h1>
+
+          <p class="contact-main">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+
+          <form action="https://formspree.io/f/mzbwrolk" class="contact-form" method="post">
+
+            
+            <div class="form-detail">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Alexandra Loremipsum" name="name"  id="name"/>
+            </div>
+
+            <div class="form-detail">
+              <label for="email">Your email</label>
+            <input type="email" placeholder="aleandra@gamil.com" name="email" id="email"/>
+            </div>
+            
+            <div class="form-detail">
+              <label for="comment">Write your comment: </label>
+            <textarea
+              name="textarea"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Write your message here"
+            ></textarea>
+            </div>
+            <button class="btn form-btn">Get in touch</button>
+          </form>
+          <p id="error-message"></p>
+        </article>
+      </section>
+      <!--end of contact section-->
+    </div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
+
